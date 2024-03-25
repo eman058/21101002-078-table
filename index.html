@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://tayyab079.github.io/tayyab-079/a.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: whitesmoke;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 65%;
+      border: none;
+    }
+
+    th, td {
+      border: none;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0; /* Light Gray */
+      color: black;
+    }
+
+    tr:hover {
+      background-color: LightBlue;
+    }
+
+    .edit-btn {
+      background-color: white;
+      color: White;
+      padding: 2px 4px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .delete-btn {
+      background-color: white;
+      color: White;
+      padding: 2px 4px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .status-btn {
+      padding: 6px 8px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 120px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .not-completed { background-color: Tomato; color: White; }
+    .completed { background-color: SeaGreen; color: White; }
+    .processing { background-color: DodgerBlue; color: White; }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="background-color: #e0e0e0;">INVOICE</th>
+        <th style="background-color: #e0e0e0;">NAME</th>
+        <th style="background-color: #e0e0e0;">DATE</th>
+        <th style="background-color: #e0e0e0;">PAYMENT STATUS</th>
+        <th style="background-color: #e0e0e0;">AMOUNT</th>
+        <th style="background-color: #e0e0e0;">ACTION</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>NA</td>
+        <td>Pratham</td>
+        <td>01/0/2022</td>
+        <td><button class="status-btn not-completed">Not Completed</button></td>
+        <td>22,000</td>
+        <td>
+          <button class="edit-btn"><img src="images.png" width="30px" height="30px"></button>
+          <button class="delete-btn"><img src="delete.png" width="30px" height="30px"></button>
+        </td>
+        </tr>
+        <tr>
+        <td>INV_1</td>
+        <td>Doe</td>
+        <td>01/04/2022</td>
+        <td><button class="status-btn completed">Completed</button></td>
+        <td>23,000</td>
+        <td>
+       <button class="edit-btn"><img src="images.png" width="30px" height="30px"></button>
+          <button class="delete-btn"><img src="delete.png" width="30px" height="30px"></button>
+          </td>
+      </tr>
+      <tr>
+        <td>INV_2</td>
+        <td>Cristian</td>
+        <td>01/04/2022</td>
+        <td><button class="status-btn processing">Processing</button></td>
+        <td>28,000</td>
+        <td>
+          <button class="edit-btn"><img src="images.png" width="30px" height="30px"></button>
+          <button class="delete-btn"><img src="delete.png" width="30px" height="30px"></button>
+        </td>
+      </tr>
+      <tr>
+        <td>INV_3</td>
+        <td>Kiran</td>
+        <td>01/04/2022</td>
+        <td><button class="status-btn processing">Processing</button></td>
+        <td>25,000</td>
+        <td>
+          <button class="edit-btn"><img src="images.png" width="30px" height="30px"></button>
+          <button class="delete-btn"><img src="delete.png" width="30px" height="30px"></button>
+        </td>
+      </tr>
+      <tr>
+        <td>INV_4</td>
+        <td>Kite</td>
+        <td>01/04/2022</td>
+        <td><button class="status-btn completed">Completed</button></td>
+        <td>22,000</td>
+        <td>
+         <button class="edit-btn"><img src="images.png" width="30px" height="30px"></button>
+          <button class="delete-btn"><img src="delete.png" width="30px" height="30px"></button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+</body></html>
